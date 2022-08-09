@@ -18,10 +18,10 @@ pipeline
                     #!/bin/bash
 
                     npm cache clean --force #to clean cache
-                    npm install -g yarn
+                    #npm install -g yarn
 
-                    yarn cache clean #to clean cache
-					yarn --update-checksums #--verbose #to clean cache
+                    #yarn cache clean #to clean cache
+					#yarn --update-checksums #--verbose #to clean cache
 
                     rm -rf package-lock.json
                     echo Deploying ....
@@ -29,8 +29,9 @@ pipeline
 	                withNPM(npmrcConfig:'da305a47-c516-4bf6-a8c9-1f60f35df82a') {
     	                echo "Performing npm build..."
     	                sh '''
-    	                yarn install #--verbose
-    	                yarn build
+                        npm run build
+    	                #yarn install #--verbose
+    	                #yarn build
     	                '''
     	            }
     	            sh'''
