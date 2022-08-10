@@ -18,10 +18,10 @@ pipeline
                     #!/bin/bash
 
                     npm cache clean --force #to clean cache
-                    #npm install -g yarn
+                    npm install -g yarn
 
-                    #yarn cache clean #to clean cache
-					#yarn --update-checksums #--verbose #to clean cache
+                    yarn cache clean #to clean cache
+					yarn --update-checksums #--verbose #to clean cache
 
                     rm -rf package-lock.json
                     echo Deploying ....
@@ -29,84 +29,16 @@ pipeline
 	                withNPM(npmrcConfig:'da305a47-c516-4bf6-a8c9-1f60f35df82a') {
     	                echo "Performing npm build..."
     	                sh '''
-                        npm run build
-    	                #yarn install #--verbose
-    	                #yarn build
+    	                yarn install #--verbose
+    	                yarn build
     	                '''
     	            }
     	            sh'''
-                        docker build -f Dockerfile -t landing-leht:master .
-
-                        sudo $(aws ecr get-login --no-include-email --region us-east-1)
-
-                        docker tag landing-leht:master 045641265786.dkr.ecr.us-east-1.amazonaws.com/landing-leht:master
-                        docker push 045641265786.dkr.ecr.us-east-1.amazonaws.com/landing-leht:master
+                        aws s3 rm s3://landig-leht-web-site/ --recursive
+                        aws s3 cp build/ s3://landig-leht-web-site/ --recursive --metadata-directive REPLACE --expires 2034-01-01T00:00:00Z --acl public-read --cache-control max-age=2592000,public
+                        aws cloudfront create-invalidation --distribution-id E1GTUHFOK9YVM1 --paths "/*"
                     '''
-
-                withCredentials([file(credentialsId: 'FYSELF_NEXO_SERVER_ACCESS_PEM', variable: 'keyfile')])
-                {
-                        sh '''
-                        #get aws ecr credential
-                        ssh -i ${keyfile}  ubuntu@ec2-44-204-63-98.compute-1.amazonaws.com "cat <<EOF >>env.aws
-AWS_ACCESS_KEY_PROD_ACCOUNT=$AWS_ACCESS_KEY_PROD_ACCOUNT
-AWS_SECRET_KEY_PROD_ACCOUNT=$AWS_SECRET_KEY_PROD_ACCOUNT
-AWS_REGION=us-east-1
-EOF"
-
-                        #restar container
-                        #ssh -i ${keyfile}  ubuntu@ec2-44-204-63-98.compute-1.amazonaws.com 'bash -s' < deploy/master/restart-master-container.sh
-
-                        #remove credentials
-                        #ssh -i ${keyfile}  ubuntu@ec2-44-204-63-98.compute-1.amazonaws.com rm env.aws
-                        '''
-                }
 				}
-		}
-		stage('Deploy Prod')
-        {
-            when {expression { env.BRANCH_NAME == 'masqwqter' }}
-            agent any
-            tools
-            {
-                nodejs 'node_v12.10.0'
-            }
-            steps
-            {
-
-                sh '''
-                      cat <<EOF >>env.aws
-AWS_ACCESS_KEY_PROD_ACCOUNT=$AWS_ACCESS_KEY_PROD_ACCOUNT
-AWS_SECRET_KEY_PROD_ACCOUNT=$AWS_SECRET_KEY_PROD_ACCOUNT
-AWS_REGION=us-east-1
-EOF
-                    '''
-                //sh "bash -v deploy/master/deploy-app-master-dps-nexo.sh"
-
-                withCredentials([file(credentialsId: 'FYSELF_NEXO_SERVER_ACCESS_PEM', variable: 'keyfile')])
-                {
-                        sh '''
-                        #get and upload nginx configuration
-                        aws s3 cp s3://dps-private-data/nginx_nexo/ nginx --recursive
-                        sudo ssh-keygen -R ec2-54-204-251-85.compute-1.amazonaws.com
-                        sudo ssh-keygen -R 54.204.251.85
-                        ssh -i ${keyfile}  ubuntu@ec2-54-204-251-85.compute-1.amazonaws.com "mkdir -p /home/ubuntu/nginx;rm -r /home/ubuntu/nginx/"
-                        scp -i ${keyfile} -r nginx ubuntu@ec2-54-204-251-85.compute-1.amazonaws.com:/home/ubuntu/nginx/
-
-                        #get aws ecr credential
-                        ssh -i ${keyfile}  ubuntu@ec2-54-204-251-85.compute-1.amazonaws.com "cat <<EOF >>env.aws
-AWS_ACCESS_KEY_PROD_ACCOUNT=$AWS_ACCESS_KEY_PROD_ACCOUNT
-AWS_SECRET_KEY_PROD_ACCOUNT=$AWS_SECRET_KEY_PROD_ACCOUNT
-AWS_REGION=us-east-1
-EOF"
-
-                        #restar container
-                        #ssh -i ${keyfile}  ubuntu@ec2-54-204-251-85.compute-1.amazonaws.com 'bash -s' < deploy/master/restart-master-dps-nexo.sh
-
-                        #remove credentials
-                        #ssh -i ${keyfile}  ubuntu@ec2-54-204-251-85.compute-1.amazonaws.com rm env.aws
-                        '''
-                }
-            }
 		}
 	}
 	post
