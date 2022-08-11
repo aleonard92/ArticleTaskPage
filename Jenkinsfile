@@ -36,7 +36,7 @@ pipeline
     	            sh'''
                         aws s3 rm s3://landig-leht-web-site/ --recursive
                         aws s3 cp build/ s3://landig-leht-web-site/ --recursive --metadata-directive REPLACE --expires 2034-01-01T00:00:00Z --acl public-read --cache-control max-age=2592000,public
-                        aws cloudfront create-invalidation --distribution-id E1GTUHFOK9YVM1 --paths "/*"
+                        aws cloudfront create-invalidation --distribution-id E3ENUFOG8CSBRY --paths "/*"
                     '''
 				}
 		}
