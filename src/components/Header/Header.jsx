@@ -42,7 +42,7 @@ const Header = () => {
 
   return (
     <header className='container mx-auto fixed top-0 right-0 left-0 w-full z-50 px-2 md:px-12 '>
-      <nav className="bg-gray-50 dark:bg-gray-700 py-2.5 max-h-[76px] relative flex justify-between">
+      <nav className="bg-gray-50 py-2.5 max-h-[76px] relative flex justify-between">
         <div className="logo">
           <img className='min-w-[180px] w-[180px]' src='/logo.svg' alt="" />
         </div>
