@@ -1,60 +1,60 @@
 {
   "heading": {
-    "title": "¿Qué es el Leht?",
-    "text": "Primer activo intangible del mundo valuado acorde a los datos personales."
+    "title": "¿What is the Leht?",
+    "text": "The World's first eco-friendly cryptocurrency valued according to the digital identity."
   },
   "information": {
     "value": {
-      "title": "Valor del Leht",
-      "head": "El Leht es el valor de la identidad VID (value of digital identity)",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por El Valor de los Datos Personales."
+      "title": "Leht's value",
+      "head": "The Leht is the Value of Digital Identity (VID for its acronym in Spanish)",
+      "text": "The Leht is the first eco-friendly cryptocurrency backed by the value of personal data. On FySelf your online life takes value."
     },
     "mining": {
-      "title": "¿En qué consiste el minado?",
-      "text": "El minado consiste en simplemente generar actividad diaria en la plataforma, atraer a nuevos Usuarios, a nuevos Clientes ya a nuevos Negocios. Atraer a toda su comunidad y grupos sociales e institucionales en los que te desenvuelves. También podrás ganar leht posteando, socializando y comunicándote, tal como lo haces hoy en otras redes sin recibir a cambio remuneración económica alguna."
+      "title": "Universal Digital Eco-friendly Cryptocurrency",
+      "text": "On FySelf you earn Leht from the moment you activate your wallet. Identity data and online services are the gold that supports the value of \"your digital self\"."
     },
     "ecom": {
-      "title": "Eco Moneda Digital Universal",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado porç."
+      "title": "What is mining?",
+      "text": "Bring your daily web activity to FySelf, post, socialize and validate information to add points to your digital reputation. Notify now your community, companies, businesses and institutions and you will start receiving economic benefits."
     }
   },
   "advantages": {
     "environment": {
-      "title": "Cuida al medio ambiente",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por"
+      "title": "Protects the environment",
+      "text": "The Leht doesn't require energy costs or equipment investments. It is a \"Clean Mining\" based on performing simple actions such as posting, chatting, completing and conducting surveys."
     },
     "decentralized": {
-      "title": "Descentralizada",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por"
+      "title": "Decentralized",
+      "text": "The Leht operates in the style of a cryptocurrency due to its decentralized nature. This enables fast and secure transfers between individuals and/or institutions, without the mediation of banks or governments and the costs that this implies."
     },
     "energy": {
-      "title": "No consume energía",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por"
+      "title": "Doesn't consume energy",
+      "text": "Cryptocurrencies base their mining system on complex computer calculations demanding large investments in equipment and energy. The Leht bases its mining on the amount of information provided and validated by users, within the Fyself ecosystem of platforms and applications."
     }
   },
   "footer": {
-    "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por",
-    "help": "Ayuda y Soporte",
+    "text": "FySelf is the First Social Network where you can mine an eco-friendly cryptocurrency called Leht, the first cryptocurrency backed by the value of personal data. On FySelf, people take back control of their personal data.",
+    "help": "Help and Support",
     "fyself": "FySelf",
     "fyself_business": "FySelf Business",
-    "about": "Sobre nosotros",
-    "partner": "Sé parte de FySelf: hazte socio",
-    "legal": "Avisos legales",
-    "patro": "Patrocinios",
-    "cause": "Causas",
+    "about": "About us",
+    "partner": "Be part of FySelf: become a partner",
+    "legal": "Legal Notice",
+    "patro": "Sponsorship",
+    "cause": "Causes",
     "blog": "Blog",
     "copy_r": "© 2022. FySelf OÜ",
-    "whitepaper": "White paper",
-    "download": "Descargar"
+    "whitepaper": "",
+    "download": "Download"
   },
-  "join": "Para participar de esta novedad mundial puedes crear tu cuenta",
-  "activate_wallet": "Activar Wallet",
-  "signup": "Registrarse",
+  "join": "Join this novelty and create your account now.",
+  "activate_wallet": "Activate Wallet",
+  "signup": "Sign up",
   "header": {
     "leht": "Leht",
-    "value": "Valor",
-    "mining": "Minado",
-    "eco": "Eco Moneda",
-    "advantages": "Ventajas"
+    "value": "Value",
+    "mining": "Mining",
+    "eco": "Eco-friendly cryptocurrency",
+    "advantages": "Advantages"
   }
 }

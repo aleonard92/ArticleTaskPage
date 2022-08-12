@@ -10,8 +10,8 @@ const Advantage = ({ advantages }) => {
             <div className="">
               <img src={item.image} alt={item.title} />
             </div>
-            <h4 className='mb-4 py-3 text-3xl text-gray-700'>{item.title}</h4>
-            <p className='my-4 text-sm text-gray-600'>{item.text}</p>
+            <h4 className='mb-2 pt-3 text-3xl text-gray-700'>{item.title}</h4>
+            <p className='mb-4 mt-2 text-sm text-gray-600'>{item.text}</p>
           </div>
         ))
       }

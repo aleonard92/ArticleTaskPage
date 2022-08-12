@@ -1,21 +1,26 @@
 import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-
+import { locale } from 'moment';
+import 'moment/min/locales';
 
 import * as EN from '../locales/en';
 import * as ES from '../locales/es';
 import * as RU from '../locales/ru';
+import * as PT from '../locales/pt';
 
+// the translations
 const resources = {
   es: {},
   en: {},
   ru: {},
+  pt: {},
 };
 
 const arrayLanguajes = [
   { resource: EN, lang: 'en' },
   { resource: ES, lang: 'es' },
   { resource: RU, lang: 'ru' },
+  { resource: PT, lang: 'pt' },
 ];
 
 arrayLanguajes.forEach(({ resource, lang }) => {
@@ -48,6 +53,11 @@ const options = {
     nsMode: 'common.json',
   },
 };
+
+i18n.on('languageChanged', function (lng) {
+  const momentLng = lng.split('-')[0];
+  locale(momentLng);
+});
 
 i18n
   .use(LanguageDetector) // passes i18n down to react-i18next

@@ -42,11 +42,11 @@ const Header = () => {
 
   return (
     <header className='container mx-auto fixed top-0 right-0 left-0 w-full z-50 px-2 md:px-12 '>
-      <nav className="bg-gray-50 py-2.5 max-h-[76px] relative flex justify-between">
+      <nav className="bg-white py-2.5 max-h-[76px] relative flex justify-between">
         <div className="logo">
           <img className='min-w-[180px] w-[180px]' src='/logo.svg' alt="" />
         </div>
-        <div className={`${showMenu ? 'w-full absolute top-14 left-0 right-0 ' : 'hidden '}  md:flex pr-0 py-3 mx-auto  md:pl-6 flex-1 justify-end `}>
+        <div className={`${showMenu ? 'w-full absolute top-14 left-0 right-0 ' : 'hidden '}  md:flex pr-0 py-3 mx-auto  md:pl-6 flex-1 justify-end items-center`}>
           <ul className={`flex ${showMenu ? 'flex-col bg-white px-4' : ''} py-4 flex-row mt-0  text-sm font-medium`}>
             <Li >
               <Link id="l_leht" to="#leht" onClick={() => toElement('leht')}>
@@ -74,7 +74,7 @@ const Header = () => {
               </Link>
             </Li>
             <Li >
-              <a className='bg-blue-800 text-white px-4 py-1.5 rounded-2xl' href="http://fyself.com" target="_blanck" > FySelf</a>
+              <a className='text-white px-4 py-1.5 rounded-2xl' href="http://fyself.com" target="_blanck" style={{backgroundColor: '#1112c0'}}> FySelf</a>
             </Li>
 
           </ul>
