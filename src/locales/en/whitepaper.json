@@ -1,16 +1,16 @@
 {
   "heading": {
     "title": "¿What is the Leht?",
-    "text": "The World's first eco-friendly cryptocurrency valued according to the digital identity."
+    "text": "The World's first eco-friendly currency valued according to the digital identity."
   },
   "information": {
     "value": {
       "title": "Leht's value",
       "head": "The Leht is the Value of Digital Identity (VID for its acronym in Spanish)",
-      "text": "The Leht is the first eco-friendly cryptocurrency backed by the value of personal data. On FySelf your online life takes value."
+      "text": "The Leht is the first eco-friendly currency backed by the value of personal data. On FySelf your online life takes value."
     },
     "mining": {
-      "title": "Universal Digital Eco-friendly Cryptocurrency",
+      "title": "Universal Digital Eco-friendly Currency",
       "text": "On FySelf you earn Leht from the moment you activate your wallet. Identity data and online services are the gold that supports the value of \"your digital self\"."
     },
     "ecom": {
@@ -33,7 +33,7 @@
     }
   },
   "footer": {
-    "text": "FySelf is the First Social Network where you can mine an eco-friendly cryptocurrency called Leht, the first cryptocurrency backed by the value of personal data. On FySelf, people take back control of their personal data.",
+    "text": "FySelf is the First Social Network where you can mine an eco-friendly currency called Leht, the first cryptocurrency backed by the value of personal data. On FySelf, people take back control of their personal data.",
     "help": "Help and Support",
     "fyself": "FySelf",
     "fyself_business": "FySelf Business",
@@ -54,7 +54,7 @@
     "leht": "Leht",
     "value": "Value",
     "mining": "Mining",
-    "eco": "Eco-friendly cryptocurrency",
+    "eco": "Eco-friendly currency",
     "advantages": "Advantages"
   }
 }

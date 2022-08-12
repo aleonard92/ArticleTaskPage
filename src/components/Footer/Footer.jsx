@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto px-2 md:px-12 flex flex-col md:flex-row justify-between">
         <div className="mx-4  md:max-w-xs lg:max-w-sm">
           <div className=" my-7 mx-4">
-            <img src="/logo.svg" alt="" />
+            <img className='min-w-[180px] w-[180px]' src="/logo.svg" alt="" />
           </div>
           <div className="">
             <p>

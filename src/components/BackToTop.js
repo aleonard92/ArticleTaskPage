@@ -39,7 +39,7 @@ function BackToTop() {
   }
 
   return (
-    <div id="top" className={`back-to-top fixed right-14 bottom-14 w-11 ${showButton ? 'block' : 'hidden'}`}>
+    <div id="top" className={`back-to-top fixed right-2 md:right-14 bottom-14 w-11 ${showButton ? 'block' : 'hidden'}`}>
       <button className="" onClick={topFunction}>
         <img src="/images/up.svg" alt="" />
       </button>
