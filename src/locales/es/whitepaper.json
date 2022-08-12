@@ -11,7 +11,7 @@
     },
     "mining": {
       "title": "Ecomoneda Digital Universal",
-      "text": "En FySelf ganas Leht desde el momento en que activas la billetera. Los datos de identidad y los servicios online son el oro que respalda el valor de “tu yo digital”."
+      "text": "En FySelf ganas Leht desde el momento en que activas la minería. Los datos de identidad y los servicios online son el oro que respalda el valor de “tu yo digital”."
     },
     "ecom": {
       "title": "¿En qué consiste el minado?",
@@ -44,7 +44,7 @@
     "cause": "Causas",
     "blog": "Blog",
     "copy_r": "© 2022. FySelf OÜ",
-    "whitepaper": "Whitepaper",
+    "whitepaper": "",
     "download": "Descargar"
   },
   "join": "Participa de esta novedad y crea ahora tu cuenta",

@@ -11,7 +11,7 @@
     },
     "mining": {
       "title": "Ecomoeda Digital Universal",
-      "text": "Em Fyself você ganha Leht a partir do momento em que ativa sua wallet. Os dados de identidade e os serviços online são o ouro que apóia o valor de \"seu eu digital\"."
+      "text": "Em Fyself você ganha Leht a partir do momento em que ativa a mineração. Os dados de identidade e os serviços online são o ouro que apóia o valor de \"seu eu digital\"."
     },
     "ecom": {
       "title": "O que é a mineração?",
@@ -45,7 +45,7 @@
     "cause": "Causas",
     "blog": "Blog",
     "copy_r": "© 2022. FySelf OÜ",
-    "whitepaper": "Whitepaper",
+    "whitepaper": "",
     "download": "Baixar"
   },
   "join": "Participe desta novidade e crie já sua conta",
