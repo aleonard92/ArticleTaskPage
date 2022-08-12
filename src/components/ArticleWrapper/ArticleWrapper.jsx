@@ -4,7 +4,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const ArticleWrapper = ({ title, head, text, image, btn, i }) => {
   return (
-    <div className='flex flex-col md:flex-row items-center md:justify-between'>
+    <div className={`flex flex-col md:flex-row items-center md:justify-between pr-1`} style={{backgroundColor: i==1 ? '#f3f3f3' : ''}}>
       <div className={`my-auto max-w-md flex-1 ${i % 2 !== 0 ? 'order-2' : 'order-1'}`}>
         <h4 data-aos="fade-up" data-aos-duration="1500" className='mb-4 text-3xl'>{title}</h4>
         <p data-aos="fade-up" data-aos-duration="1500" className='text-lg font-bold text-gray-700'>{head}</p>
@@ -22,7 +22,7 @@ const ArticleWrapper = ({ title, head, text, image, btn, i }) => {
             loop
             autoplay
           />
-          : <img className='my-auto max-h-full ' src={image} alt={title} />}
+          : <img className='my-auto max-h-full rounded-2xl' src={image} alt={title} />}
       </div>
     </div>
   )

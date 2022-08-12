@@ -1,60 +1,60 @@
 {
   "heading": {
     "title": "¿Qué es el Leht?",
-    "text": "Primer activo intangible del mundo valuado acorde a los datos personales."
+    "text": "Primera ecomoneda del mundo valuada acorde a la identidad digital."
   },
   "information": {
     "value": {
-      "title": "Valor del Leht",
-      "head": "El Leht es el valor de la identidad VID (value of digital identity)",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por El Valor de los Datos Personales."
+      "title": "Valor del Leht.",
+      "head": "El Leht es la expresión en Valor de la Identidad Digital (VID).",
+      "text": "El Leht es la primera ecomoneda respaldada por el valor de los datos personales. En FySelf tu vida online cobra valor."
     },
     "mining": {
-      "title": "¿En qué consiste el minado?",
-      "text": "El minado consiste en simplemente generar actividad diaria en la plataforma, atraer a nuevos Usuarios, a nuevos Clientes ya a nuevos Negocios. Atraer a toda su comunidad y grupos sociales e institucionales en los que te desenvuelves. También podrás ganar leht posteando, socializando y comunicándote, tal como lo haces hoy en otras redes sin recibir a cambio remuneración económica alguna."
+      "title": "Ecomoneda Digital Universal",
+      "text": "En FySelf ganas Leht desde el momento en que activas la billetera. Los datos de identidad y los servicios online son el oro que respalda el valor de “tu yo digital”."
     },
     "ecom": {
-      "title": "Eco Moneda Digital Universal",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado porç."
+      "title": "¿En qué consiste el minado?",
+      "text": "Trae a FySelf tu actividad diaria en la web, postea, socializa y valida información para agregar puntos a tu reputación digital. Avisa ahora a tu comunidad, a empresas, negocios e instituciones y comenzarás a recibir beneficios económicos."
     }
   },
   "advantages": {
     "environment": {
-      "title": "Cuida al medio ambiente",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por"
+      "title": "Cuida el Medio Ambiente",
+      "text": "El Leht no requiere gastos energéticos ni inversiones en equipos. Es una “Minería Limpia” basada en realizar acciones simples como postear, chatear, completar y realizar encuestas."
     },
     "decentralized": {
       "title": "Descentralizada",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por"
+      "text": "El Leht opera al estilo de una criptomoneda por su naturaleza descentralizada. Esto posibilita la realización de transferencias rápidas y seguras entre personas y/o instituciones, sin la mediación de bancos o gobiernos y los costos que esto implica."
     },
     "energy": {
       "title": "No consume energía",
-      "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por"
+      "text": "Las criptomonedas basan su sistema de minado en cálculos informáticos complejos demandantes de grandes inversiones en equipos y energía. El Leht basa su minado en la cantidad de información aportada y validada por los usuarios, dentro del ecosistema de plataformas y aplicaciones de Fyself."
     }
   },
   "footer": {
-    "text": "FySelf es la Primera Red Social en la que podrás minar una criptomoneda es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por respaldado por. FySelf es la Primera Red Social en la que podrás minar una criptomoneda denominada Leht, primer criptoactivo respaldado por",
+    "text": "FySelf es la Primera Red Social en la que podrás minar una ecomoneda denominada Leht, primer criptoactivo respaldado por el valor de los datos personales. En FySelf las personas retomamos el control de nuestros datos personales.",
     "help": "Ayuda y Soporte",
     "fyself": "FySelf",
     "fyself_business": "FySelf Business",
     "about": "Sobre nosotros",
     "partner": "Sé parte de FySelf: hazte socio",
     "legal": "Avisos legales",
-    "patro": "Patrocinios",
+    "patro": "Patrocinio",
     "cause": "Causas",
     "blog": "Blog",
     "copy_r": "© 2022. FySelf OÜ",
-    "whitepaper": "White paper",
+    "whitepaper": "",
     "download": "Descargar"
   },
-  "join": "Para participar de esta novedad mundial puedes crear tu cuenta",
+  "join": "Participa de esta novedad y crea ahora tu cuenta",
   "activate_wallet": "Activar Wallet",
   "signup": "Registrarse",
   "header": {
     "leht": "Leht",
     "value": "Valor",
     "mining": "Minado",
-    "eco": "Eco Moneda",
+    "eco": "Ecomoneda",
     "advantages": "Ventajas"
   }
 }

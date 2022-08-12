@@ -11,6 +11,7 @@ import SectionWrapper from "./components/SectionWrapper/SectionWrapper";
 import Advantage from "./components/Advantage/Advantage";
 import Footer from "./components/Footer/Footer";
 import BackToTop from "./components/BackToTop";
+import { DialogsContextProvider } from "./components/ModalDialog/context/DialogsContext";
 
 
 function App() {
@@ -99,7 +100,9 @@ function App() {
           <div id="toend"></div>
           <BackToTop />
         </main>
-        <Footer />
+        <DialogsContextProvider>
+          <Footer />
+        </DialogsContextProvider>
       </Router>
     </div>
   );

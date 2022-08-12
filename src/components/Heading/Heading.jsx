@@ -12,7 +12,7 @@ const Heading = ({ heading }) => {
       <div className="w-full flex-1  pl-2 my-auto">
         <h4 className='mb-4 text-3xl text-gray-600'>{title}</h4>
         <p className='my-4 text-sm'>{text}</p>
-        <Link to='#' className='bg-white text-blue-800 rounded-3xl px-4 py-1 my-2 text-sm'>Activar Wallet</Link>
+        {/* <Link to='#' className='bg-white text-blue-800 rounded-3xl px-4 py-1 my-2 text-sm'>Activar Wallet</Link> */}
       </div>
     </section>
   )

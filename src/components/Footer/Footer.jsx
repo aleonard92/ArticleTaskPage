@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import LangSelector from './components/LangSelector'
 
 const Footer = () => {
   const { t } = useTranslation('whitepaper')
@@ -41,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mx-4  pt-20">
-          <h4 className="text-gray-900 font-bold" >{t('footer.help')}</h4>
+          <h4 style={{color: ' #3f3d56 '}}>{t('footer.help')}</h4>
           <ul>
             <li className="text-gray-600">{t('footer.fyself')}</li>
             <li className="text-gray-600">{t('footer.fyself_business')}</li>
@@ -55,8 +56,11 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mx-4 lg:min-w-[200px] pt-20">
-          <h4 className="text-gray-900 font-bold"  > {t('footer.whitepaper')}</h4>
+          <h4 style={{color: ' #3f3d56 '}} > {t('footer.whitepaper')}</h4>
           <Link className="text-blue-700 font-bold underline underline-offset-4" to='/'> {t('footer.download')}</Link>
+        </div>
+        <div className="mx-4  pt-20">
+          <LangSelector/>
         </div>
       </div>
     </div>
