@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { Player } from '@lottiefiles/react-lottie-player';
 
 const ArticleWrapper = ({ title, head, text, image, btn, i }) => {
@@ -9,7 +8,7 @@ const ArticleWrapper = ({ title, head, text, image, btn, i }) => {
         <h4 data-aos="fade-up" data-aos-duration="1500" className='mb-4 text-3xl'>{title}</h4>
         <p data-aos="fade-up" data-aos-duration="1500" className='text-lg font-bold text-gray-700'>{head}</p>
         <p data-aos="fade-up" data-aos-duration="1500" className='my-4 text-sm'>{text}</p>
-        {btn && <Link to='#' data-aos="fade-up" data-aos-duration="1500" className=' border border-blue-600 bg-white text-blue-800 rounded-3xl px-4 py-1 my-2 text-sm'>{btn}</Link>}
+        {btn && <a data-aos="fade-up" data-aos-duration="1500" href="http://fyself.com" target="_blanck"  className=' border border-blue-600 bg-white text-blue-800 rounded-3xl px-4 py-1 my-2 text-sm'>{btn}</a>}
       </div>
       <div
         data-aos={`fade-${i % 2 === 0 ? 'left' : 'right'}`}
