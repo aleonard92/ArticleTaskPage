@@ -74,6 +74,11 @@ const Header = () => {
               </Link>
             </Li>
             <Li >
+              <Link id="l_download" to="#download" onClick={() => toElement('download')}>
+                {t('header.download')}
+              </Link>
+            </Li>
+            <Li >
               <a className='text-white px-4 py-1.5 rounded-2xl' href="http://fyself.com" target="_blanck" style={{backgroundColor: '#1112c0'}}> FySelf</a>
             </Li>
 

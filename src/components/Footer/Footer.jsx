@@ -55,9 +55,14 @@ const Footer = () => {
             <li className="text-gray-600"> {t('footer.copy_r')}</li>
           </ul>
         </div>
-        <div className="mx-4 lg:min-w-[200px] pt-20">
-          <h4 style={{color: ' #3f3d56 '}} > {t('footer.whitepaper')}</h4>
-          <a data-aos="fade-up" data-aos-duration="1500" href="/folder/ResumenWhitePaperesp.docx" target="_blanck"  className="text-blue-700 font-bold underline underline-offset-4"> {t('footer.download')} </a> 
+        <div id='download' className="mx-4 lg:min-w-[200px] pt-20">
+          <div>
+            <h4 style={{ color: ' #3f3d56 ' }} > {t('footer.whitepaper')}</h4>
+            <a data-aos="fade-up" data-aos-duration="1500" href="/folder/ResumenWhitePaperesp.pdf" target="_blanck" className="text-blue-700 font-bold underline underline-offset-4"> {t('footer.download')} </a>
+          </div>
+          <div className='mt-2'>
+            <a data-aos="fade-up" data-aos-duration="1500" href="/folder/WhitePaperLehtVesionesp.pdf" target="_blanck" className="text-blue-700 font-bold underline underline-offset-4"> {t('footer.download2')} </a>
+          </div>
         </div>
         <div className="mx-4  pt-20">
           <LangSelector/>
