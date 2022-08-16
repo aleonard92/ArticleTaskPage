@@ -46,7 +46,9 @@
     "blog": "Blog",
     "copy_r": "© 2022. FySelf OÜ",
     "whitepaper": "",
-    "download": "Resumo do whitepaper espanhol"
+    "download": "Resumo do whitepaper espanhol",
+    "download2": "Whitepaper espanhol"
+    
   },
   "join": "Participe desta novidade e crie já sua conta",
   "activate_wallet": "Activar Wallet",
@@ -56,6 +58,7 @@
     "value": "Valor",
     "mining": "Mineração",
     "eco": "Ecomoeda",
-    "advantages": "Vantagens"
+    "advantages": "Vantagens",
+    "download": "Baixar"
   }
 }
