@@ -63,6 +63,12 @@ const Footer = () => {
           <div className='mt-2'>
             <a data-aos="fade-up" data-aos-duration="1500" href="/LehtWhitePapperES.pdf" target="_blanck" className="text-blue-700 font-bold underline underline-offset-4"> {t('footer.download2')} </a>
           </div>
+          <div className='mt-2'>
+            <a data-aos="fade-up" data-aos-duration="1500" href="/AbstractLehtWhitePapperPT.pdf" target="_blanck" className="text-blue-700 font-bold underline underline-offset-4"> {t('footer.download3')} </a>
+          </div>
+          <div className='mt-2'>
+            <a data-aos="fade-up" data-aos-duration="1500" href="/AbstractLehtWhitePapperEN.pdf" target="_blanck" className="text-blue-700 font-bold underline underline-offset-4"> {t('footer.download4')} </a>
+          </div>
         </div>
         <div className="mx-4  pt-20">
           <LangSelector/>
