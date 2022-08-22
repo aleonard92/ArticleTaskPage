@@ -1,64 +1,6 @@
 {
-  "heading": {
-    "title": "¿What is the Leht?",
-    "text": "The World's first eco-friendly currency valued according to the digital identity."
-  },
-  "information": {
-    "value": {
-      "title": "Leht's value",
-      "head": "The Leht is the Value of Digital Identity (VID for its acronym in Spanish)",
-      "text": "The Leht is the first eco-friendly currency backed by the value of personal data. On FySelf your online life takes value."
-    },
-    "mining": {
-      "title": "Universal Digital Eco-friendly Currency",
-      "text": "On FySelf you earn Leht from the moment you activate the mining. Identity data and online services are the gold that supports the value of \"your digital self\"."
-    },
-    "ecom": {
-      "title": "What is mining?",
-      "text": "Bring your daily web activity to FySelf, post, socialize and validate information to add points to your digital reputation. Notify now your community, companies, businesses and institutions and you will start receiving economic benefits."
-    }
-  },
-  "advantages": {
-    "environment": {
-      "title": "Protects the environment",
-      "text": "The Leht does not require energy costs or equipment investments"
-    },
-    "decentralized": {
-      "title": "Decentralized",
-      "text": "The Leht operates in the style of a cryptocurrency due to its decentralized nature. This enables fast and secure transfers between individuals and/or institutions, without the mediation of banks or governments and the costs that this implies."
-    },
-    "energy": {
-      "title": "Does not consume energy",
-      "text": "Cryptocurrencies base their mining system on complex computer calculations demanding large investments in equipment and energy. The Leht bases its mining on the amount of information provided and validated by users, within the Fyself ecosystem of platforms and applications."
-    }
-  },
-  "footer": {
-    "text": "FySelf is the First Social Network where you can mine an eco-friendly currency called Leht, the first cryptocurrency backed by the value of personal data. On FySelf, people take back control of their personal data.",
-    "help": "Help and Support",
-    "fyself": "FySelf",
-    "fyself_business": "FySelf Business",
-    "about": "About us",
-    "partner": "Be part of FySelf: become a partner",
-    "legal": "Legal Notice",
-    "patro": "Sponsorship",
-    "cause": "Causes",
-    "blog": "Blog",
-    "copy_r": "© 2022. FySelf OÜ",
-    "whitepaper": "",
-    "download": "Summary Spanish Whitepaper",
-    "download2": "Spanish Whitepaper",
-    "download3": "Summary Portugues Whitepaper",
-    "download4": "Summary English Whitepaper"
-  },
-  "join": "Join this novelty and create your account now.",
-  "activate_wallet": "Activate Wallet",
-  "signup": "Sign up",
-  "header": {
-    "leht": "Leht",
-    "value": "Value",
-    "mining": "Mining",
-    "eco": "Eco-friendly currency",
-    "advantages": "Advantages",
-    "download": "Whitepaper"
-  }
+  "search": "Search",
+  "welcome": "Welcome to articles blog",
+  "titleWelcome":"Here you will find a variety of news of great interest",
+  "textFooter": "2022, Inc. All rights reserved."
 }

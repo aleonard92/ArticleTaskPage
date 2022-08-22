@@ -5,22 +5,16 @@ import 'moment/min/locales';
 
 import * as EN from '../locales/en';
 import * as ES from '../locales/es';
-import * as RU from '../locales/ru';
-import * as PT from '../locales/pt';
 
 // the translations
 const resources = {
   es: {},
   en: {},
-  ru: {},
-  pt: {},
 };
 
 const arrayLanguajes = [
   { resource: EN, lang: 'en' },
   { resource: ES, lang: 'es' },
-  { resource: RU, lang: 'ru' },
-  { resource: PT, lang: 'pt' },
 ];
 
 arrayLanguajes.forEach(({ resource, lang }) => {
